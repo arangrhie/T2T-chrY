@@ -8,7 +8,7 @@ In addition, pieces of Y sequences (often in PAR1 or heterochromatin) were not c
 Thus, refOriented sequences were mapped to a further masked version of the Y to extend chrY scaffolds and recover missing telomeres and PAR sequences. See [identify_scaffold.md](TODO).
 
 Once the Y scaffolds were identified, each node in the graph connected to the Y scaffold were visited and pulled out as a putative unplaced Y sequence. This was done to rescue centromeric and ampliconic repeats that Verkko was unable to resolve automatically. <br>
-Components not connected to the Y scaffolds but with strong matches to chrY were also visited to validate and put in the unplaced bin. See [identify_unplaced.md].
+Components not connected to the Y scaffolds but with strong matches to chrY were also visited to validate and put in the unplaced bin. See [identify_unplaced.md](identify_unplaced.md).
 
 During the process, the assembly path of [10 genomes](verkko_manual_update.samples.list) were manually re-evaluated and corrected if there was a mis-assembly.
 
