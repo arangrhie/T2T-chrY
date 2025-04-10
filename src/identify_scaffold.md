@@ -5,6 +5,7 @@
 * refOriented: Initially identified in the verkko v2.2.1 freeze using mashmap
 
 ## Dependency
+* aws cli/2.15.26
 * samtools/1.21
 * bedtools/2.31.1
 * seqtk/1.4
@@ -15,9 +16,9 @@
 The Y chromosome is highly conserved for its structure except for the PAR, non ampliconic sequences, non heterochromatic sequences.
 
 1. Mask the following regions in CHM13v2Y:
-* PAR and HET from `chm13v2.0_chrXY_sequence_class_v1.bed`
-* IR, P1-5; entire `chm13v2.0Y_inverted_repeats_v2.bed`
-* Amplicons: `chm13v2.0Y_amplicons_v2.bed` - later used in the analysis. Could've included earlier.
+* PAR and HET from `[chm13v2.0_chrXY_sequence_class_v1.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_chrXY_sequence_class_v1.bed)`
+* IR, P1-5; entire `[chm13v2.0Y_inverted_repeats_v2.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0Y_inverted_repeats_v2.bed)`
+* Amplicons: `[chm13v2.0Y_amplicons_v2.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0Y_amplicons_v2.bed)` - later used in the analysis. Could've included earlier.
 
 2. Map the refOriented versions to the `masked_Y`
 
@@ -30,8 +31,13 @@ The Y chromosome is highly conserved for its structure except for the PAR, non a
 
 
 ## 1. `chrY_masked`
+Download files we need and generate a masked Y
 
 ```sh
+aws s3 cp --no-sign-request s3://human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_chrXY_sequence_class_v1.bed .
+aws s3 cp --no-sign-request s3://human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0Y_inverted_repeats_v2.bed
+aws s3 cp --no-sign-request s3://human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0Y_amplicons_v2.bed
+
 cat chm13v2.0Y_inverted_repeats_v2.bed | awk '{print $1"\t"$2"\t"$3}' > mask.bed
 awk '$1="chrY" && ( $4~/^PAR/ || $4=="HET" ) {print $1"\t"$2"\t"$3}'  chm13v2.0_chrXY_sequence_class_v1.bed >> mask.bed
 cat mask.bed | sort -k2,2n | bedtools merge -i - > mask.mrg.bed
@@ -76,6 +82,17 @@ cat ${qry_name}_to_${ref_name}.filter.paf |\
 This script is available as `align.sh`, and was run through `align_job.sh` for a list of assemblies in slurm job arrays.
 
 ```sh
+mkdir -p verkko_wi_manual_update # link the assembly.fasta files as $sample.fa
+LEN=`wc -l samples.wi_manual_update.map | awk '{print $1}'`
+for i in $(seq 1 $LEN)
+do
+  ln=`sed -n ${i}p samples.wi_manual_update.map`
+  sample=`echo $ln | awk '{print $1}'`
+  fa=`echo $ln | awk '{print $2}'`
+  ln -sf $fa verkko_wi_manual_update/$sample.fa
+done
+
+
 # refOriented_fa_wi_Y.list : path to 105 assemblies with Ys
 # split by 5 lines, starting from 10 to make the array jobs easier to track
 split -d -a2 -l 5 --numeric-suffixes=10 refOriented_fa_wi_Y.list refOriented_fa_wi_Y.

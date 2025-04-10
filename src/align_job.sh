@@ -12,7 +12,7 @@ len=$3
 
 for ref in $(cat $list)
 do
-  ./align.sh $ref $qry $len
+  $tools/T2T-chrY/src/align.sh $ref $qry $len
 done
 
 
