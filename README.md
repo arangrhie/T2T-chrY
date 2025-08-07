@@ -7,7 +7,7 @@ HPRC / HGSVC Verkko r2 Y chromosome assemblies
 * [chrY_annotation](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/v2/chrY_annotation): Rough annotation of the ampliconic palindrome sequences and satellite repeats based on `minimap2`.
 Note that all 'sequence' are set to chrY in the bed files to load them on the same chrY view for visualization purposes.
 
-## Samples manually updated
+### Samples manually updated
 In total, 11 samples are not using the same assembly as in the initial [Verkko v2.2.1 release 2](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=submissions/6807247E-4F71-45D8-AECE-9E5813BA1D9F--verkko-v2.2.1-release2_asms/).
 
 ### Version used and its resolution
@@ -137,9 +137,9 @@ In total, 11 samples are not using the same assembly as in the initial [Verkko v
 | NA18974_chrY | haplotype1-0000003- | manual |
 | HG003_chrY | chrY_haplotype1-0000002+ | refOriented, not part of HPRC release |
 
-### Samples likely to exclude from analysis
+## Samples likely to exclude from analysis
 
-| Sample  | Reason  |
-| ------- | ------- |
-| HG02015 | Assembly too fragmented. 18 gaps in the scaffold with 84 unplaced sequences. |
-| HG02145 | Y is 8x vs. 35x in the rest of the haplotype. Cellline is likely loosing Y in some cells. Assembly too fragmented, missing PAR/telomeres. 9 gaps in the scaffold with 30 unplaced sequences. |
+| Set  | Sample  | Reason  |
+| ---- | ------- | ------- |
+| HPRC | HG02015 | Assembly too fragmented. 18 gaps in the scaffold with 84 unplaced sequences. |
+| HPRC | HG02145 | Y is 8x vs. 35x in the rest of the haplotype. Cellline is likely loosing Y in some cells. Assembly too fragmented, missing PAR/telomeres. 9 gaps in the scaffold with 30 unplaced sequences. |
