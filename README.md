@@ -11,9 +11,10 @@ Note that all 'sequence' are set to chrY in the bed files to load them on the sa
 Below can be downloaded with aws cli:
 ```sh
 mkdir -p hprc hgsvc ceph
+# module load aws
 aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/chrY/v2/  hprc/
-aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/hgsvc/v1/ hgsvc/
-aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/ceph/v1/  ceph/
+aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/chrY/hgsvc/v1/ hgsvc/
+aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/chrY/ceph/v1/  ceph/
 ```
 
 * HPRC: 106 genomes
