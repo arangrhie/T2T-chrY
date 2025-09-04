@@ -21,7 +21,7 @@ The assembly graph was re-walked to generate a more contiguous path for the Ys t
 | HG01596 | manual      |
 | HG01890 | hi-c        |
 | HG02011 | manual      |
-| HG02492 | thic      |
+| HG02492 | thic        |
 | HG02554 | hi-c        |
 | HG02666 | manual      |
 | HG02953 | hi-c        |

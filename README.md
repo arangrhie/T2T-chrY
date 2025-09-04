@@ -1,11 +1,39 @@
 # T2T-chrY
-HPRC / HGSVC Verkko r2 Y chromosome assemblies
+HPRC / HGSVC / CEPH Verkko r2 Y chromosome assemblies
 
-## HPRC r2 Verkko Assemblies with the curated Y
-* [chrY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/v2/chrY_assemblies): Each sequence is named `${SAMPLE}_chrY` for the Y scaffold (or contig) and `${SAMPLE}_chrY_randomXXXXXXX` for the unplaced sequences.
-* [nonY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/v2/nonY_assemblies): Non Y sequence set, after removing all Y sequences (in `chrY_assemblies`) as well as small contigs that were in the assembly graph connected to the Y scaffold or had best hits to chrY with `mashmap` but were filtered out due to lack of coverage support or uniqueness of the sequences. Verkko `exemplar` sequences identified as `MT`, `rDNA`, and `EBV` (if any) are also included. For validation purposes, chrY_assemblies + nonY_assemblies should be concatenated and used for read mapping.
-* [chrY_annotation](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/v2/chrY_annotation): Rough annotation of the ampliconic palindrome sequences and satellite repeats based on `minimap2`.
+## What's available
+* chrY_assemblies: Each sequence is named `${SAMPLE}_chrY` for the Y scaffold (or contig) and `${SAMPLE}_chrY_randomXXXXXXX` for the unplaced sequences.
+* nonY_assemblies: Non Y sequence set, after removing all Y sequences (in `chrY_assemblies`) as well as small contigs that were in the assembly graph connected to the Y scaffold or had best hits to chrY with `mashmap` but were filtered out due to lack of coverage support or uniqueness of the sequences. Verkko `exemplar` sequences identified as `MT`, `rDNA`, and `EBV` (if any) are also included for the HPRC / HGSVC samples. For validation purposes, chrY_assemblies + nonY_assemblies should be concatenated and used for read mapping.
+* chrY_annotation: Rough annotation of the ampliconic palindrome sequences and satellite repeats based on `minimap2`.
 Note that all 'sequence' are set to chrY in the bed files to load them on the same chrY view for visualization purposes.
+
+## Data access
+Below can be downloaded with aws cli:
+```sh
+mkdir -p hprc hgsvc ceph
+aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/chrY/v2/  hprc/
+aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/hgsvc/v1/ hgsvc/
+aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/ceph/v1/  ceph/
+```
+
+* HPRC: 106 genomes
+  * [chrY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/v2/chrY_assemblies)
+  * [nonY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/v2/nonY_assemblies)
+  * [chrY_annotation](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/v2/chrY_annotation)
+
+* HGSVC: 29 genomes
+  * [chrY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/hgsvc/v1/chrY_assemblies/)
+  * [nonY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/hgsvc/v1/nonY_assemblies)
+  * [chrY_annotation](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/hgsvc/v1/chrY_annotation)
+
+* CEPH: 8 genomes; 2 will be shared later via dbGAP
+  * [chrY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/ceph/v1/chrY_assemblies)
+  * [nonY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/ceph/v1/nonY_assemblies)
+  * chrY_annotation; TBA
+
+Below are details from each cohort.
+
+## HPRC
 
 ### Samples manually updated
 In total, 11 samples are not using the same assembly as in the initial [Verkko v2.2.1 release 2](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=submissions/6807247E-4F71-45D8-AECE-9E5813BA1D9F--verkko-v2.2.1-release2_asms/).
@@ -137,9 +165,15 @@ In total, 11 samples are not using the same assembly as in the initial [Verkko v
 | NA18974_chrY | haplotype1-0000003- | manual |
 | HG003_chrY | chrY_haplotype1-0000002+ | refOriented, not part of HPRC release |
 
-## Samples likely to exclude from analysis
+### Samples likely to exclude from analysis
 
 | Set  | Sample  | Reason  |
 | ---- | ------- | ------- |
 | HPRC | HG02015 | Assembly too fragmented. 18 gaps in the scaffold with 84 unplaced sequences. |
 | HPRC | HG02145 | Y is 8x vs. 35x in the rest of the haplotype. Cellline is likely loosing Y in some cells. Assembly too fragmented, missing PAR/telomeres. 9 gaps in the scaffold with 30 unplaced sequences. |
+
+## HGSVC
+See [hgsvc](hgsvc/hgsvc.md).
+
+## CEPH
+TBA
