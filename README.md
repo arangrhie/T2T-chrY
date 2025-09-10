@@ -30,7 +30,7 @@ aws s3 cp --recursive s3://human-pangenomics/T2T/scratch/chrY/ceph/v1/  ceph/
 * CEPH: 8 genomes; 2 will be shared later via dbGAP
   * [chrY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/ceph/v1/chrY_assemblies)
   * [nonY_assemblies](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/ceph/v1/nonY_assemblies)
-  * chrY_annotation; TBA
+  * [chrY_annotation](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/scratch/chrY/ceph/v1/chrY_annotation/)
 
 Below are details from each cohort.
 
