@@ -16,9 +16,9 @@
 The Y chromosome is highly conserved for its structure except for the PAR, non ampliconic sequences, non heterochromatic sequences.
 
 1. Mask the following regions in CHM13v2Y:
-* PAR and HET from `[chm13v2.0_chrXY_sequence_class_v1.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_chrXY_sequence_class_v1.bed)`
-* IR, P1-5; entire `[chm13v2.0Y_inverted_repeats_v2.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0Y_inverted_repeats_v2.bed)`
-* Amplicons: `[chm13v2.0Y_amplicons_v2.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0Y_amplicons_v2.bed)` - later used in the analysis. Could've included earlier.
+* PAR and HET from [chm13v2.0_chrXY_sequence_class_v1.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0_chrXY_sequence_class_v1.bed)
+* IR, P1-5; entire [chm13v2.0Y_inverted_repeats_v2.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0Y_inverted_repeats_v2.bed)
+* Amplicons: [chm13v2.0Y_amplicons_v2.bed](https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/chm13v2.0Y_amplicons_v2.bed) - later used in the analysis. Could've included earlier.
 
 2. Map the refOriented versions to the `masked_Y`
 
