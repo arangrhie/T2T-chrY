@@ -151,7 +151,7 @@ echo $mappable
 ```
 
 Alignments were chosen based on the following criteria:
-* Exclude any mappings falling in the AMBL, bSat, COMP MER5A1 region
+* Exclude any mappings falling in the AMPL, bSat, COMP MER5A1 region
 * Exclude any sequences larger than 90 Mbs in length (later inforced after breaking down the X-fused Y misassemblies)
 * Alignment blocks are merged for its min and max coordinate along with its direction (`+` and `-`)
 * Each sequence block was reported and evaluated if
