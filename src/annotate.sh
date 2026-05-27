@@ -63,15 +63,9 @@ if [[ ! -s $out/sat_to_${sample}.paf ]]; then
   set +x
 fi
 
-
-
-#awk -v len=$len '{ if( $11 >= len ) print }' $out/sat_to_${sample}.paf > $out/sat_to_${sample}.filter.paf
 cat $out/sat_to_${sample}.paf |\
   awk -v OFS='\t' '{if ($10<$11) {idy=100*$10/$11;} else {idy=100*$11/$10;} print $6,$8,$9,$1,idy,$5}' |\
   sort -k1,1V -k2,2n - > $out/sat_to_${sample}.bed
-#echo "Final alignment file: $out/sat_to_${sample}.filter.bed, filtered at > $len bp"
-
-
 
 if [[ ! -s $asm_fa.fai ]]; then
   echo "Indexing $asm_fa"

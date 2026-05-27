@@ -21,8 +21,8 @@ out=$2
 for fa in $(cat $fa_list)
 do
   # sample=`echo $fa | awk -F '/' '{print $(NF-3)}'` # for naive refOriented verkko output fa paths
-  # sample=`echo $fa | awk -F '/' '{print $NF}' | sed 's/_chrY.fa.gz//g'` # for renamed chrY fa paths
-  sample=`echo $fa | awk -F '/' '{print $(NF-1)}'`
+  sample=`echo $fa | awk -F '/' '{print $NF}' | sed 's/_chrY.fa.gz//g'` # for renamed chrY fa paths
+  # sample=`echo $fa | awk -F '/' '{print $(NF-1)}'`
 	$tools/T2T-chrY/src/annotate.sh $tools/T2T-chrY/src/annotate_regions.txt $sample $fa $out
 done
 
