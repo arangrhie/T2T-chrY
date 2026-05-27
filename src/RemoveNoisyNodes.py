@@ -144,7 +144,7 @@ if __name__ == "__main__":
 		with open(nodes_file[:-4] + ".no_noise.txt", 'w') as fo:
 			for line in fi:
 				tokens = line.strip().split('\t')
-				if tokens[2] == 'UNPLACED' or tokens[2] == 'UNPLACED_Cmpnt':
+				if tokens[2] == 'UNLOC' or tokens[2] == 'UNLOC_Cmpnt':
 					nodes_candidate = tokens[-1].split(',')
 					# only include singleton nodes
 					if len(nodes_candidate) == 1 and nodes_candidate[0][:4] == 'utig':

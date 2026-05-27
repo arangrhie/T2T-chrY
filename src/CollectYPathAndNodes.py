@@ -164,10 +164,10 @@ def main():
     graph = parse_gfa(gfa_file)
 
     # Iterate through the nodes connected to the YscaffPathNodes
-    # and collect all unplaced utig nodes not in YscaffPathNodes nor xChromosomeNodes
+    # and collect all unlocalized utig nodes not in YscaffPathNodes nor xChromosomeNodes
     
     visited = set()  # To keep track of visited nodes
-    unplacedTigs=[]  # To keep track of unplaced utigs
+    unlocalizedTigs=[]  # To keep track of unlocalized utigs
     for node in YscaffPathNodes:
 
         if node in visited:
@@ -186,11 +186,11 @@ def main():
                     print(f"Skipping tig {current_node} as it is not chrY")
                 else:
                     if current_node not in YscaffPathNodes:
-                        # print(f"Adding tig {current_node} to unplaced")
-                        # add node to unplacedTigs if neighbor is not in xChromosomeNodes
+                        # print(f"Adding tig {current_node} to unlocalized")
+                        # add node to unlocalizedTigs if neighbor is not in xChromosomeNodes
                         # this is to prevent adding nodes that  belong to PAR1
                         if all(neighbor not in xChromosomeNodes for neighbor in graph.neighbors(current_node)):
-                            unplacedTigs.append(current_node)
+                            unlocalizedTigs.append(current_node)
 
                     for neighbor in graph.neighbors(current_node):
                         if neighbor[:4] == 'utig' and neighbor not in visited:
@@ -198,18 +198,18 @@ def main():
 
                 visited.add(current_node)
     
-    if len(unplacedTigs) == 0:
-        print("No unplaced tigs found")
+    if len(unlocalizedTigs) == 0:
+        print("No unlocalized tigs found")
     else:
-        print(sample + " unplacedTigs: " + ",".join(unplacedTigs))
-    # Look for unplaced tigs with hits to Y from mashmapYNodes, exclude if it is within a rDNA component
+        print(sample + " unlocalizedTigs: " + ",".join(unlocalizedTigs))
+    # Look for unlocalized tigs with hits to Y from mashmapYNodes, exclude if it is within a rDNA component
     
     visited = set() # clear off the visited nodes to traverse the graph
-    unplacedTigCandidates = set()  # temporal list to hold Y candidates while traversing
-    mashmapUnplaced = []    # list of unplaced tigs with mashmap hits to chrY, not connected to the 'confident Y'
+    unlocalizedTigCandidates = set()  # temporal list to hold Y candidates while traversing
+    mashmapUnplaced = []    # list of unlocalized tigs with mashmap hits to chrY, not connected to the 'confident Y'
     nodesToSkip = set()
     for node in mashmapYNodes:
-        if node in mashmapUnplaced or node in nodesToSkip or node in unplacedTigs:
+        if node in mashmapUnplaced or node in nodesToSkip or node in unlocalizedTigs:
             continue
         else:
             # Traverse the graph to find all nodes in the component
@@ -219,36 +219,36 @@ def main():
                 if current_node not in visited:
                     if current_node in utigToChrDict:
                         if utigToChrDict[current_node] == 'chrY':
-                            unplacedTigCandidates.add(current_node)
+                            unlocalizedTigCandidates.add(current_node)
                         else:
-                            nodesToSkip.update(unplacedTigCandidates)
-                            unplacedTigCandidates.clear()
+                            nodesToSkip.update(unlocalizedTigCandidates)
+                            unlocalizedTigCandidates.clear()
                             break # break the loop for traversing the graph
                     else:
                         # Node has no good mashmap hit - possibly a small or repetitive node
                         if current_node == 'rDNA':
                             nodesToSkip.add(current_node)
-                            unplacedTigCandidates.clear()
+                            unlocalizedTigCandidates.clear()
                             break
                         else:
-                            unplacedTigCandidates.add(current_node)
+                            unlocalizedTigCandidates.add(current_node)
 
                     for neighbor in graph.neighbors(current_node):
                         if neighbor[:4] == 'utig' and neighbor not in visited:
                             stack.append(neighbor)
                 visited.add(current_node)
             
-            if len(unplacedTigCandidates) > 0:
-                mashmapUnplaced.extend(unplacedTigCandidates)
-                unplacedTigCandidates.clear()
+            if len(unlocalizedTigCandidates) > 0:
+                mashmapUnplaced.extend(unlocalizedTigCandidates)
+                unlocalizedTigCandidates.clear()
     
     if len(mashmapUnplaced) == 0:
-        print("No unplaced component tigs found")
+        print("No unlocalized component tigs found")
     else:
         print(sample + " mashmapUnplaced: " + ",".join(mashmapUnplaced))
 
 
-    # For each of our 'unplaced tigs', see if there is a path that uses it and print the scaffold name
+    # For each of our 'unlocalized tigs', see if there is a path that uses it and print the scaffold name
     newList=[]
     isUnplaced  = False
     hasUnplaced = False
@@ -269,8 +269,8 @@ def main():
                 
                 # print(f"Checking node {node}")
 
-                if node in unplacedTigs:
-                    print(f"Node {node} is in unplacedTigs - {row.name}")
+                if node in unlocalizedTigs:
+                    print(f"Node {node} is in unlocalizedTigs - {row.name}")
                     listUnplaced.append(node)
                     if row.name in scfPathToScaffoldDict.keys():
                         if row.name[:3] == 'mat' and YscaffHap == 'pat' or row.name[:3] == 'pat' and YscaffHap == 'mat':
@@ -290,7 +290,7 @@ def main():
                     isUnplaced = False
                     if row.name in scfPathToScaffoldDict.keys():
                         isComponent = True
-                        # newList.append([sample,scfPathToScaffoldDict[row.name],'UNPLACED_Cmpnt',row.name, row.path])
+                        # newList.append([sample,scfPathToScaffoldDict[row.name],'UNLOC_Cmpnt',row.name, row.path])
                         
                     else:
                         print(f"Skipping {row.name} as it is not in scfPathToScaffoldDict")
@@ -301,16 +301,16 @@ def main():
                     if node in utigToChrDict and utigToChrDict[node] != 'chrY':
                         isUnplaced = False
                         if hasUnplaced:
-                            print(f"{sample} :: WARNING :: {row.name} has unplaced tigs {listUnplaced} but connected to a non-Y {node} ( {utigToChrDict[node]} ) : {row.path}")
+                            print(f"{sample} :: WARNING :: {row.name} has unlocalized tigs {listUnplaced} but connected to a non-Y {node} ( {utigToChrDict[node]} ) : {row.path}")
             
                         break
 
             if hasUnplaced and isUnplaced :
-                print(f"Adding {row.name} to unplaced. Path: {row.path}")
-                newList.append([sample,scfPathToScaffoldDict[row.name],'UNPLACED',row.name, row.path])
+                print(f"Adding {row.name} to unlocalized. Path: {row.path}")
+                newList.append([sample,scfPathToScaffoldDict[row.name],'UNLOC',row.name, row.path])
             elif not isUnplaced and isComponent:
-                print(f"Adding {row.name} to unplaced component. Path: {row.path}")
-                newList.append([sample,scfPathToScaffoldDict[row.name],'UNPLACED_Cmpnt',row.name, row.path])
+                print(f"Adding {row.name} to unlocalized component. Path: {row.path}")
+                newList.append([sample,scfPathToScaffoldDict[row.name],'UNLOC_Cmpnt',row.name, row.path])
 
     
     # Build a dataframe for this newList
