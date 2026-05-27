@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="chm13v2.0" locus="chr1:0-91566035" version="8">
+    <Resources>
+        <Resource path="chr1/HG00658.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02392.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04157.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18971.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA12877.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02668.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03732.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01258.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02602.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02572.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01890.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA21093.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00731.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02965.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03130.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04228.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/200084.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02083.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02492.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02668.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18522.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02647.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG003.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19347.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA12883.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01099.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA12886.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19650.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00140.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG04204.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01109.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01192.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG003.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02953.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01167.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19443.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00358.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01530.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03492.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03579.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01952.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01109.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03248.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19331.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02698.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19700.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03065.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02011.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA21093.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04160.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00140.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03050.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG04157.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02602.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02984.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20905.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01530.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20809.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02514.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03742.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG04199.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19682.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03942.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02953.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02056.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03209.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03732.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02486.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02514.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00738.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00673.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18747.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03579.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19384.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02572.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01106.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03050.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19650.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02965.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00096.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02055.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03654.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01358.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03065.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18608.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01167.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18989.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01943.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02011.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00126.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02391.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19705.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG005.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/200084.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03710.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03098.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02015.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18879.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02717.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA12884.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02040.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18522.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01457.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02738.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02132.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02040.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03248.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00642.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA20850.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00280.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03521.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02738.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01243.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18983.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02027.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02027.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02735.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02554.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00290.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02735.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02135.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19239.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18534.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01505.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA20905.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/200080.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00290.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00658.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03688.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18612.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19043.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01505.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00329.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18534.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG04115.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00706.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03742.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19384.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00621.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18952.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01457.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04115.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03688.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03942.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA20752.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02554.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03225.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA12877.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03492.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03225.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04199.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00609.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG002.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18952.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00706.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA12882.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/200080.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00609.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19700.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19347.issues.main.bed" type="bed"/>
+        <Resource path="chr1/200085.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA12882.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02056.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02391.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02698.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01192.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03710.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02258.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03654.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA12883.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03017.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG002.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01261.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00512.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04187.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG005.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00321.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19443.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00621.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02145.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02074.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02492.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03209.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA12886.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03471.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00673.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03009.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20805.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20805.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02392.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01928.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02717.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00280.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02071.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19043.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00321.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00329.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18620.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01433.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19705.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02145.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02666.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02083.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19317.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18612.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01106.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03371.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19239.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20752.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03130.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01255.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA20870.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18608.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03139.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04228.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03139.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00512.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01596.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01934.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01074.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01099.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02015.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03017.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01261.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02132.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18974.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20346.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01928.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01252.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00642.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18879.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01433.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02129.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG04187.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20509.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03098.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20809.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02135.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00358.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01358.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01255.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18971.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA12884.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01943.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/200085.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00738.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01934.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20870.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18974.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA20850.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01252.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03009.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02055.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18989.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02071.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02984.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03521.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA20346.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19331.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18747.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02486.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02129.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01258.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG02258.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01596.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01952.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04204.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA19682.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/NA18983.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00126.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG00096.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA20509.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG03371.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG03471.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA18620.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG00731.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02666.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01243.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG01890.issues.main.bed" type="bed"/>
+        <Resource path="chr1/NA19317.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02074.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG02647.seqclass.main.bed" type="bed"/>
+        <Resource path="chr1/HG04160.issues.main.bed" type="bed"/>
+        <Resource path="chr1/HG01074.seqclass.main.bed" type="bed"/>
+    </Resources>
+    <Panel height="11360" name="FeaturePanel" width="1506">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="14" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="200080.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/200080.issues.main.bed" name="200080.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="200080.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/200080.seqclass.main.bed" name="200080.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="200084.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/200084.issues.main.bed" name="200084.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="200084.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/200084.seqclass.main.bed" name="200084.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="200085.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/200085.issues.main.bed" name="200085.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="200085.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/200085.seqclass.main.bed" name="200085.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG002.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG002.issues.main.bed" name="HG002.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG002.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG002.seqclass.main.bed" name="HG002.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG003.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG003.issues.main.bed" name="HG003.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG003.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG003.seqclass.main.bed" name="HG003.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG005.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG005.issues.main.bed" name="HG005.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG005.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG005.seqclass.main.bed" name="HG005.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00096.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00096.issues.main.bed" name="HG00096.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00096.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00096.seqclass.main.bed" name="HG00096.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00126.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00126.issues.main.bed" name="HG00126.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00126.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00126.seqclass.main.bed" name="HG00126.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00140.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00140.issues.main.bed" name="HG00140.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00140.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00140.seqclass.main.bed" name="HG00140.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00280.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00280.issues.main.bed" name="HG00280.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00280.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00280.seqclass.main.bed" name="HG00280.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00290.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00290.issues.main.bed" name="HG00290.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00290.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00290.seqclass.main.bed" name="HG00290.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00321.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00321.issues.main.bed" name="HG00321.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00321.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00321.seqclass.main.bed" name="HG00321.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00329.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00329.issues.main.bed" name="HG00329.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00329.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00329.seqclass.main.bed" name="HG00329.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00358.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00358.issues.main.bed" name="HG00358.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00358.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00358.seqclass.main.bed" name="HG00358.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00512.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00512.issues.main.bed" name="HG00512.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00512.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00512.seqclass.main.bed" name="HG00512.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00609.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00609.issues.main.bed" name="HG00609.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00609.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00609.seqclass.main.bed" name="HG00609.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00621.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00621.issues.main.bed" name="HG00621.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00621.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00621.seqclass.main.bed" name="HG00621.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00642.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00642.issues.main.bed" name="HG00642.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00642.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00642.seqclass.main.bed" name="HG00642.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00658.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00658.issues.main.bed" name="HG00658.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00658.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00658.seqclass.main.bed" name="HG00658.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00673.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00673.issues.main.bed" name="HG00673.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00673.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00673.seqclass.main.bed" name="HG00673.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00706.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00706.issues.main.bed" name="HG00706.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00706.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00706.seqclass.main.bed" name="HG00706.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00731.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00731.issues.main.bed" name="HG00731.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00731.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00731.seqclass.main.bed" name="HG00731.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00738.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00738.issues.main.bed" name="HG00738.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG00738.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG00738.seqclass.main.bed" name="HG00738.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01074.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01074.issues.main.bed" name="HG01074.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01074.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01074.seqclass.main.bed" name="HG01074.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01099.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01099.issues.main.bed" name="HG01099.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01099.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01099.seqclass.main.bed" name="HG01099.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01106.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01106.issues.main.bed" name="HG01106.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01106.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01106.seqclass.main.bed" name="HG01106.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01109.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01109.issues.main.bed" name="HG01109.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01109.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01109.seqclass.main.bed" name="HG01109.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01167.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01167.issues.main.bed" name="HG01167.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01167.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01167.seqclass.main.bed" name="HG01167.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01192.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01192.issues.main.bed" name="HG01192.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01192.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01192.seqclass.main.bed" name="HG01192.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01243.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01243.issues.main.bed" name="HG01243.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01243.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01243.seqclass.main.bed" name="HG01243.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01252.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01252.issues.main.bed" name="HG01252.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01252.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01252.seqclass.main.bed" name="HG01252.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01255.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01255.issues.main.bed" name="HG01255.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01255.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01255.seqclass.main.bed" name="HG01255.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01258.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01258.issues.main.bed" name="HG01258.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01258.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01258.seqclass.main.bed" name="HG01258.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01261.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01261.issues.main.bed" name="HG01261.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01261.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01261.seqclass.main.bed" name="HG01261.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01358.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01358.issues.main.bed" name="HG01358.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01358.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01358.seqclass.main.bed" name="HG01358.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01433.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01433.issues.main.bed" name="HG01433.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01433.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01433.seqclass.main.bed" name="HG01433.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01457.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01457.issues.main.bed" name="HG01457.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01457.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01457.seqclass.main.bed" name="HG01457.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01505.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01505.issues.main.bed" name="HG01505.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01505.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01505.seqclass.main.bed" name="HG01505.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01530.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01530.issues.main.bed" name="HG01530.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01530.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01530.seqclass.main.bed" name="HG01530.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01596.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01596.issues.main.bed" name="HG01596.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01596.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01596.seqclass.main.bed" name="HG01596.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01890.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01890.issues.main.bed" name="HG01890.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01890.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01890.seqclass.main.bed" name="HG01890.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01928.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01928.issues.main.bed" name="HG01928.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01928.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01928.seqclass.main.bed" name="HG01928.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01934.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01934.issues.main.bed" name="HG01934.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01934.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01934.seqclass.main.bed" name="HG01934.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01943.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01943.issues.main.bed" name="HG01943.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01943.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01943.seqclass.main.bed" name="HG01943.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01952.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01952.issues.main.bed" name="HG01952.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG01952.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG01952.seqclass.main.bed" name="HG01952.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02011.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02011.issues.main.bed" name="HG02011.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02011.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02011.seqclass.main.bed" name="HG02011.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02015.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02015.issues.main.bed" name="HG02015.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02015.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02015.seqclass.main.bed" name="HG02015.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02027.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02027.issues.main.bed" name="HG02027.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02027.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02027.seqclass.main.bed" name="HG02027.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02040.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02040.issues.main.bed" name="HG02040.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02040.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02040.seqclass.main.bed" name="HG02040.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02055.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02055.issues.main.bed" name="HG02055.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02055.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02055.seqclass.main.bed" name="HG02055.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02056.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02056.issues.main.bed" name="HG02056.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02056.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02056.seqclass.main.bed" name="HG02056.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02071.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02071.issues.main.bed" name="HG02071.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02071.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02071.seqclass.main.bed" name="HG02071.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02074.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02074.issues.main.bed" name="HG02074.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02074.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02074.seqclass.main.bed" name="HG02074.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02083.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02083.issues.main.bed" name="HG02083.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02083.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02083.seqclass.main.bed" name="HG02083.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02129.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02129.issues.main.bed" name="HG02129.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02129.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02129.seqclass.main.bed" name="HG02129.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02132.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02132.issues.main.bed" name="HG02132.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02132.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02132.seqclass.main.bed" name="HG02132.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02135.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02135.issues.main.bed" name="HG02135.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02135.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02135.seqclass.main.bed" name="HG02135.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02145.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02145.issues.main.bed" name="HG02145.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02145.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02145.seqclass.main.bed" name="HG02145.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02258.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02258.issues.main.bed" name="HG02258.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02258.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02258.seqclass.main.bed" name="HG02258.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02391.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02391.issues.main.bed" name="HG02391.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02391.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02391.seqclass.main.bed" name="HG02391.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02392.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02392.issues.main.bed" name="HG02392.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02392.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02392.seqclass.main.bed" name="HG02392.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02486.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02486.issues.main.bed" name="HG02486.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02486.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02486.seqclass.main.bed" name="HG02486.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02492.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02492.issues.main.bed" name="HG02492.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02492.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02492.seqclass.main.bed" name="HG02492.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02514.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02514.issues.main.bed" name="HG02514.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02514.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02514.seqclass.main.bed" name="HG02514.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02554.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02554.issues.main.bed" name="HG02554.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02554.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02554.seqclass.main.bed" name="HG02554.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02572.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02572.issues.main.bed" name="HG02572.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02572.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02572.seqclass.main.bed" name="HG02572.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02602.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02602.issues.main.bed" name="HG02602.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02602.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02602.seqclass.main.bed" name="HG02602.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02647.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02647.issues.main.bed" name="HG02647.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02647.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02647.seqclass.main.bed" name="HG02647.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02666.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02666.issues.main.bed" name="HG02666.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02666.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02666.seqclass.main.bed" name="HG02666.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02668.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02668.issues.main.bed" name="HG02668.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02668.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02668.seqclass.main.bed" name="HG02668.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02698.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02698.issues.main.bed" name="HG02698.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02698.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02698.seqclass.main.bed" name="HG02698.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02717.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02717.issues.main.bed" name="HG02717.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02717.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02717.seqclass.main.bed" name="HG02717.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02735.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02735.issues.main.bed" name="HG02735.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02735.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02735.seqclass.main.bed" name="HG02735.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02738.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02738.issues.main.bed" name="HG02738.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02738.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02738.seqclass.main.bed" name="HG02738.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02953.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02953.issues.main.bed" name="HG02953.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02953.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02953.seqclass.main.bed" name="HG02953.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02965.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02965.issues.main.bed" name="HG02965.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02965.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02965.seqclass.main.bed" name="HG02965.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02984.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02984.issues.main.bed" name="HG02984.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG02984.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG02984.seqclass.main.bed" name="HG02984.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03009.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03009.issues.main.bed" name="HG03009.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03009.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03009.seqclass.main.bed" name="HG03009.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03017.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03017.issues.main.bed" name="HG03017.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03017.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03017.seqclass.main.bed" name="HG03017.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03050.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03050.issues.main.bed" name="HG03050.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03050.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03050.seqclass.main.bed" name="HG03050.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03065.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03065.issues.main.bed" name="HG03065.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03065.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03065.seqclass.main.bed" name="HG03065.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03098.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03098.issues.main.bed" name="HG03098.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03098.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03098.seqclass.main.bed" name="HG03098.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03130.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03130.issues.main.bed" name="HG03130.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03130.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03130.seqclass.main.bed" name="HG03130.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03139.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03139.issues.main.bed" name="HG03139.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03139.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03139.seqclass.main.bed" name="HG03139.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03209.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03209.issues.main.bed" name="HG03209.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03209.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03209.seqclass.main.bed" name="HG03209.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03225.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03225.issues.main.bed" name="HG03225.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03225.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03225.seqclass.main.bed" name="HG03225.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03248.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03248.issues.main.bed" name="HG03248.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03248.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03248.seqclass.main.bed" name="HG03248.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03371.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03371.issues.main.bed" name="HG03371.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03371.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03371.seqclass.main.bed" name="HG03371.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03471.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03471.issues.main.bed" name="HG03471.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03471.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03471.seqclass.main.bed" name="HG03471.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03492.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03492.issues.main.bed" name="HG03492.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03492.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03492.seqclass.main.bed" name="HG03492.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03521.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03521.issues.main.bed" name="HG03521.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03521.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03521.seqclass.main.bed" name="HG03521.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03579.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03579.issues.main.bed" name="HG03579.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03579.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03579.seqclass.main.bed" name="HG03579.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03654.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03654.issues.main.bed" name="HG03654.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03654.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03654.seqclass.main.bed" name="HG03654.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03688.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03688.issues.main.bed" name="HG03688.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03688.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03688.seqclass.main.bed" name="HG03688.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03710.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03710.issues.main.bed" name="HG03710.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03710.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03710.seqclass.main.bed" name="HG03710.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03732.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03732.issues.main.bed" name="HG03732.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03732.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03732.seqclass.main.bed" name="HG03732.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03742.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03742.issues.main.bed" name="HG03742.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03742.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03742.seqclass.main.bed" name="HG03742.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03942.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03942.issues.main.bed" name="HG03942.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG03942.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG03942.seqclass.main.bed" name="HG03942.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04115.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04115.issues.main.bed" name="HG04115.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04115.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04115.seqclass.main.bed" name="HG04115.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04157.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04157.issues.main.bed" name="HG04157.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04157.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04157.seqclass.main.bed" name="HG04157.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04160.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04160.issues.main.bed" name="HG04160.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04160.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04160.seqclass.main.bed" name="HG04160.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04187.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04187.issues.main.bed" name="HG04187.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04187.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04187.seqclass.main.bed" name="HG04187.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04199.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04199.issues.main.bed" name="HG04199.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04199.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04199.seqclass.main.bed" name="HG04199.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04204.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04204.issues.main.bed" name="HG04204.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04204.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04204.seqclass.main.bed" name="HG04204.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04228.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04228.issues.main.bed" name="HG04228.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="HG04228.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/HG04228.seqclass.main.bed" name="HG04228.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12877.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12877.issues.main.bed" name="NA12877.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12877.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12877.seqclass.main.bed" name="NA12877.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12882.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12882.issues.main.bed" name="NA12882.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12882.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12882.seqclass.main.bed" name="NA12882.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12883.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12883.issues.main.bed" name="NA12883.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12883.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12883.seqclass.main.bed" name="NA12883.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12884.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12884.issues.main.bed" name="NA12884.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12884.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12884.seqclass.main.bed" name="NA12884.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12886.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12886.issues.main.bed" name="NA12886.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA12886.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA12886.seqclass.main.bed" name="NA12886.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18522.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18522.issues.main.bed" name="NA18522.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18522.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18522.seqclass.main.bed" name="NA18522.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18534.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18534.issues.main.bed" name="NA18534.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18534.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18534.seqclass.main.bed" name="NA18534.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18608.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18608.issues.main.bed" name="NA18608.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18608.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18608.seqclass.main.bed" name="NA18608.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18612.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18612.issues.main.bed" name="NA18612.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18612.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18612.seqclass.main.bed" name="NA18612.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18620.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18620.issues.main.bed" name="NA18620.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18620.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18620.seqclass.main.bed" name="NA18620.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18747.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18747.issues.main.bed" name="NA18747.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18747.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18747.seqclass.main.bed" name="NA18747.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18879.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18879.issues.main.bed" name="NA18879.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18879.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18879.seqclass.main.bed" name="NA18879.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18952.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18952.issues.main.bed" name="NA18952.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18952.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18952.seqclass.main.bed" name="NA18952.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18971.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18971.issues.main.bed" name="NA18971.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18971.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18971.seqclass.main.bed" name="NA18971.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18974.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18974.issues.main.bed" name="NA18974.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18974.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18974.seqclass.main.bed" name="NA18974.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18983.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18983.issues.main.bed" name="NA18983.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18983.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18983.seqclass.main.bed" name="NA18983.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18989.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18989.issues.main.bed" name="NA18989.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA18989.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA18989.seqclass.main.bed" name="NA18989.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19043.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19043.issues.main.bed" name="NA19043.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19043.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19043.seqclass.main.bed" name="NA19043.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19239.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19239.issues.main.bed" name="NA19239.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19239.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19239.seqclass.main.bed" name="NA19239.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19317.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19317.issues.main.bed" name="NA19317.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19317.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19317.seqclass.main.bed" name="NA19317.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19331.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19331.issues.main.bed" name="NA19331.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19331.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19331.seqclass.main.bed" name="NA19331.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19347.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19347.issues.main.bed" name="NA19347.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19347.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19347.seqclass.main.bed" name="NA19347.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19384.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19384.issues.main.bed" name="NA19384.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19384.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19384.seqclass.main.bed" name="NA19384.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19443.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19443.issues.main.bed" name="NA19443.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19443.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19443.seqclass.main.bed" name="NA19443.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19650.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19650.issues.main.bed" name="NA19650.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19650.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19650.seqclass.main.bed" name="NA19650.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19682.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19682.issues.main.bed" name="NA19682.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19682.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19682.seqclass.main.bed" name="NA19682.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19700.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19700.issues.main.bed" name="NA19700.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19700.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19700.seqclass.main.bed" name="NA19700.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19705.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19705.issues.main.bed" name="NA19705.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA19705.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA19705.seqclass.main.bed" name="NA19705.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20346.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20346.issues.main.bed" name="NA20346.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20346.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20346.seqclass.main.bed" name="NA20346.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20509.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20509.issues.main.bed" name="NA20509.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20509.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20509.seqclass.main.bed" name="NA20509.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20752.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20752.issues.main.bed" name="NA20752.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20752.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20752.seqclass.main.bed" name="NA20752.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20805.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20805.issues.main.bed" name="NA20805.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20805.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20805.seqclass.main.bed" name="NA20805.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20809.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20809.issues.main.bed" name="NA20809.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20809.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20809.seqclass.main.bed" name="NA20809.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20850.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20850.issues.main.bed" name="NA20850.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20850.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20850.seqclass.main.bed" name="NA20850.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20870.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20870.issues.main.bed" name="NA20870.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20870.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20870.seqclass.main.bed" name="NA20870.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20905.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20905.issues.main.bed" name="NA20905.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA20905.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA20905.seqclass.main.bed" name="NA20905.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA21093.issues.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA21093.issues.main.bed" name="NA21093.issues.main.bed" showFeatureNames="false" visible="true"/>
+        <Track attributeKey="NA21093.seqclass.main.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="12" groupByStrand="false" height="20" id="chr1/NA21093.seqclass.main.bed" name="NA21093.seqclass.main.bed" showFeatureNames="false" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.002232973576479345"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
