@@ -10,7 +10,7 @@ if [[ $# -ne 1 ]]; then
 fi
 
 sample=$1
-refcovered=`realpath /data/T2T-Y/y_comparison/GQC_AC/*/$sample/${sample}_oldY_vs_newY/${sample}_oldY_vs_${sample}_newY.refcovered.sort.bed`
+refcovered=`realpath ../y_comparison/GQC_AC/*/$sample/${sample}_oldY_vs_newY/${sample}_oldY_vs_${sample}_newY.refcovered.sort.bed`
 seqclass=`realpath ../seqclass_ideogram/originY/$sample.seqclass.main.bed`
 
 if ! [[ -s $refcovered && -s $seqclass ]]; then

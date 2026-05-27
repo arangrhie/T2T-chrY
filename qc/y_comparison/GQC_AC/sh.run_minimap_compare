@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=64g
+#SBATCH --time=2-0
+#SBATCH --output=/data/T2T-Y/y_comparison/logs/run_compare_minimap.%j.log
+
+module load bedtools
+module load minimap2
+module load R
+
+source /data/Phillippy/projects/HG002_diploid/benchmarking/github/GQC/venv/bin/activate
+export PATH=/data/Phillippy/projects/HG002_diploid/benchmarking/github/FastK_GM_021425:$PATH
+
+export MINIMAPDIR=/data/T2T-Y/y_comparison/GQC_AC
+
+export OLDYFASTA=$1
+export NEWYFASTA=$2
+export SAMPLE=$3
+export GROUP=$4
+
+mkdir -p $MINIMAPDIR/$GROUP/$SAMPLE
+cd $MINIMAPDIR/$GROUP/$SAMPLE
+
+export SHORTOLDYFASTA=`echo $OLDYFASTA | sed 's:.*/::'`
+if [ ! -e $MINIMAPDIR/$GROUP/$SAMPLE/$SHORTOLDYFASTA ]; then
+    ln -sf $OLDYFASTA* ./
+fi
+export SHORTNEWYFASTA=`echo $NEWYFASTA | sed 's:.*/::'`
+if [ ! -e $MINIMAPDIR/$GROUP/$SAMPLE/$SHORTNEWYFASTA ]; then
+    ln -sf $NEWYFASTA* ./
+fi
+
+assemblycompare -t 2 --haploid --r1fasta $SHORTNEWYFASTA --q1fasta $SHORTOLDYFASTA -p $SAMPLE\_oldY_vs_newY -R $SAMPLE\_newY -Q $SAMPLE\_oldY --aligner minimap2 --splitdistance 500 --minalignlength 100000 --debug
+

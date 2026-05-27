@@ -1,0 +1,28 @@
+#!/bin/bash
+module load samtools
+
+export TOPDIR=/data/T2T-Y/y_comparison/GQC_AC
+export YSCAFFOLDFILE=/data/Phillippy2/projects/hprc-assemblies/comparison_to_hifiasm/hifiasm_Y_locs/hifiasm_y_aligned_scaffolds.inclusivemain.sort.txt
+
+mkdir -p $TOPDIR/HPRC/y_fastas
+for sample in `awk -F"\t" '{print $1}' ../hprc_y_samples.txt`; do
+    echo $sample
+    export SAMPLE=$sample
+    export HPRCDIR=/fdb/HPRC/r2/assemblies/$SAMPLE
+    export OLDFASTA=$TOPDIR/HPRC/y_fastas/$SAMPLE\_HPRC_r2_chrY.fa
+
+    if [[ ! -e HPRC/$sample ]]; then
+        export NEWSAMPLE=/data/T2T-Y/y_comparison/hprc/chrY_assemblies/$SAMPLE\_chrY.fa.gz;
+	if [[ ! -e $OLDFASTA ]]; then
+	    rm -f $OLDFASTA
+	    for scaffold in `awk -F"\t" '$1==ENVIRON["SAMPLE"] {print $2}' $YSCAFFOLDFILE`; do
+                export SCAFFOLD=$scaffold
+                export HPRCFASTA=`awk -F"\t" '$1==ENVIRON["SCAFFOLD"] {print FILENAME}' $HPRCDIR/$SAMPLE\_*\_hprc_r2_v1.0.1.fa.gz.fai | sed 's:.fai::'`
+                echo -e $SAMPLE"\t"$SCAFFOLD"\t"$HPRCFASTA
+	        samtools faidx $HPRCFASTA $SCAFFOLD >> $OLDFASTA
+	    done
+	fi
+        sbatch sh.run_minimap_compare $OLDFASTA $NEWSAMPLE $SAMPLE HPRC;
+        sleep 10
+    fi
+done

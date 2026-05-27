@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for sample in `awk -F"\t" '{print $1}' ../ceph_old_y_sample_fastas.txt`; do
+    echo $sample
+    export SAMPLE=$sample
+    if [[ ! -e CEPH/$sample ]]; then
+        export OLDFASTA=`awk -F"\t" '$1==ENVIRON["SAMPLE"] {print $2}' ../ceph_old_y_sample_fastas.txt`;
+        export NEWSAMPLE=/data/T2T-Y/y_comparison/ceph/chrY_assemblies/$SAMPLE\_chrY.fa.gz;
+        sbatch sh.run_minimap_compare $OLDFASTA $NEWSAMPLE $SAMPLE CEPH;
+    fi
+    sleep 10
+done
