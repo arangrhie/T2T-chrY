@@ -125,8 +125,8 @@ module load R/4.5.2
 Rscript plot_ideogram.R
 ```
 
-Output: `seqclass_ideogram.pdf`
-![seqclass_ideogram.pdf](seqclass_ideogram.pdf)
+Output: `seqclass_ideogram.pdf` and `seqclass_ideogram.png`
+![seqclass_ideogram.png](seqclass_ideogram.png)
 
 * Potential `AMPL` and `PAR2` marked as UNASSIGNED:
   ```

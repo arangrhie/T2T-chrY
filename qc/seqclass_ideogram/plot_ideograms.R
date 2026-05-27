@@ -166,3 +166,10 @@ print(p)
 dev.off()
 
 cat("Plot saved to:", output_file, "\n")
+
+output_file <- "seqclass_ideogram.png"
+png(output_file, width = 12, height = (y_position + RULER_HEIGHT_MM + 20) / 25.4, units = "in", res = 300)
+print(p)
+dev.off()
+
+cat("Plot saved to:", output_file, "\n")
